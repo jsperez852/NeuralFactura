@@ -1,0 +1,35 @@
+{
+  "name": "NeuralFactura",
+  "version": "0.0.1",
+  "description": "Aplicacion de facturacion para trazos de patronaje",
+  "author": "NeuralByte Software",
+  "repository": {
+    "type": "git",
+    "url": "https://sebastianperez.visualstudio.com/_git/NeuralFactura"
+  },
+  "private": true,
+  "dependencies": {
+    "alertify": "^0.3.0",
+    "babel-core": "^6.24.0",
+    "express": "^4.15.2",
+    "firebase": "^3.7.4",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015",
+    "build": "babel src -d src/build/build.js",
+    "dev": "babel src --watch src/build/build.js",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "require": "^2.4.20",
+    "webpack": "^2.3.2"
+  }
+}
